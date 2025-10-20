@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Good Morning"
+            android:padding="10dp"
+            android:id="@+id/english"
+            />
+        <TextView
+            android:text=""
+            android:id="@+id/translation"
+            android:padding="10dp"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Please"
+            android:id="@+id/please"
+            android:padding="10dp"
+            />
+        <TextView
+            android:text=""
+            android:id="@+id/pleasetrans"
+            android:padding="10dp"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:hint="Enter $ amount"
+            android:inputType="numberDecimal"
+            android:id="@+id/input"
+            android:padding="10dp"
+            />
+        <TextView
+            android:text="$0.00"
+            android:id="@+id/output"
+            android:padding="10dp"
+            />
+    </TableRow>
+    <!-- red line -->
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Need Visa?"
+            android:padding="10dp"
+            />
+        <TextView
+            android:text=""
+            android:id="@+id/visa"
+            android:padding="10dp"
+            />
+    </TableRow>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:onClick="updateData"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go Back"
+            android:onClick="goBack" />
+    </LinearLayout>
+</TableLayout>

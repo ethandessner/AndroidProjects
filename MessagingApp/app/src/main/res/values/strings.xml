@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ChatAppGroupProject</string>
+    <string name="welcome">Welcome to our</string>
+    <string name="login_to_continue">Please login to continue</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="no_account">I don\'t have an account</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="add_image">Add Image</string>
+    <string name="username">Username</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="chat_app">Chat App</string>
+    <string name="intro1">created by CMSC 436 group of</string>
+    <string name="intro2">Alex Montella, Ethan Dessner, Yichun Bai, and Lincoln He</string>
+    <string name="select_user">Select User</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="online">Online</string>
+</resources>

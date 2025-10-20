@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/label_years"
+        android:text="Choose a Destination" />
+    <RadioGroup
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/buttonGroup"
+        android:layout_below="@+id/label_years"
+        android:orientation="vertical"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/loc_one"
+            android:text="India" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/loc_two"
+            android:text="Turkey" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/loc_three"
+            android:text="Mexico" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/loc_four"
+            android:text="Italy" />
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/label_amount"
+        android:text="Exchange Rate: $1 = "
+        android:layout_below="@+id/buttonGroup"
+        android:layout_marginTop="50dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/data_amount"
+        android:text=""
+        android:layout_alignBottom="@+id/label_amount"
+        android:layout_alignRight="@+id/label_amount"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/label_amount"
+        android:inputType="numberDecimal"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="modifyData"
+        android:layout_centerHorizontal="true"
+        android:text="Done"
+        android:layout_below="@+id/data_amount"
+        android:layout_marginTop="50dp"/>
+</RelativeLayout>
