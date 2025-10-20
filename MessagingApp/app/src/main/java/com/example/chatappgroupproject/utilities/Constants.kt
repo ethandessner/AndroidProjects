@@ -36,7 +36,7 @@ class Constants {
         fun gtRemoteMsgHeaders(): HashMap<String, String>? {
             if(remoteMsgHeaders == null) {
                 remoteMsgHeaders = HashMap<String, String>()
-                remoteMsgHeaders!![REMOTE_MSG_AUTHORIZATION] = "key=AAAAZCdV-Gg:APA91bFI9wlbP_PELNB0wFxjLBzI4-9msmzO-uYK9FuK2RhzjsXQfeRkSJ4gPrAcqA_xiNryEocpEBVgzU4kkN8P32TdX2t3ShjFY0t2H5QQ-fNJwEB3egazZd_TzGvqHHPSmGqW6EMS"
+                remoteMsgHeaders!![REMOTE_MSG_AUTHORIZATION] = "MESSAGING_KEY"
                 remoteMsgHeaders!![REMOTE_MSG_CONTENT_TYPE] = "application/json"
             }
             return remoteMsgHeaders
